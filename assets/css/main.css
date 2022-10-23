@@ -25,8 +25,17 @@ section, summary, time, mark, audio, video
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+<<<<<<< HEAD
 
-iframe {overflow: none;}
+=======
+>>>>>>> 495953151aa3b31a7a8a588d39e753ae13ea14c0
+
+iframe
+{
+    position: relative;
+    height: 100%;
+    width: 100%; 
+}
 body {
 	line-height: 1;
 }
@@ -258,7 +267,7 @@ input, select, textarea {
 	}
 
 	pre {
-		-webkit-overflow-scrolling: touch;
+		-webkit-: touch;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
